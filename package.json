@@ -4,7 +4,8 @@
   "description": "omnifood project",
   "main": "app.js",
   "scripts": {
-    "test": "omnifood"
+    "test": "omnifood",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",

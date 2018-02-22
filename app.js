@@ -3,7 +3,7 @@ const app=express();
 const root='E:/node/omnifoodexpress';
 express.static(root);
 app.use(express.static('omnifood'));
-const port=8030;
+const port=process.env.PORT || 3080;
 
 
 const indexRoute=require('./routes');
